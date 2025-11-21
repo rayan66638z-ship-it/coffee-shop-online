@@ -1,0 +1,12 @@
+#!/bin/sh
+# ----------------------------------------------------------------------------
+# Maven Start Up Batch script
+#
+# Required ENV vars:
+# ------------------
+#   JAVA_HOME - location of a JDK home dir
+# -----------------------------------------------------------------------------
+
+# Default to current directory if BASEDIR is not set
+BASEDIR=$(dirname "$0")
+exec "$BASEDIR/.mvn/wrapper/maven-wrapper" "$@"
